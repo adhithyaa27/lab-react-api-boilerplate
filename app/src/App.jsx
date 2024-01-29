@@ -18,7 +18,7 @@ function App() {
     <div>
       {data.map((ele) => {
         return (
-          <div key={ele.id} className="bb">
+          <div key={ele.id} className="box">
             <h1>{ele.title}</h1>
             <div>
               <img src={ele.imageLinks.thumbnail}/>
